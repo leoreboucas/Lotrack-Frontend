@@ -1,0 +1,11 @@
+{
+  "layout": {
+    "inventoryManagement": "Gestão de estoque",
+    "notifications": "Notificações",
+    "lightMode": "Ativar modo claro",
+    "darkMode": "Ativar modo escuro",
+    "defaultRole": "Usuário",
+    "mainMenu": "MENU PRINCIPAL",
+    "operations": "OPERAÇÕES"
+  }
+}
