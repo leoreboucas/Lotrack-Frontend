@@ -1,0 +1,17 @@
+{
+  "login": {
+    "eyebrow": "Acesso à plataforma",
+    "welcome": "Boas-vindas",
+    "description": "Entre com suas credenciais para acessar sua conta.",
+    "email": "E-mail",
+    "emailPlaceholder": "seu@email.com",
+    "password": "Senha",
+    "passwordPlaceholder": "Sua senha",
+    "submit": "Entrar",
+    "submitting": "Entrando...",
+    "invalidEmail": "Informe um e-mail válido",
+    "passwordRequired": "Informe sua senha",
+    "showPassword": "Exibir senha",
+    "hidePassword": "Ocultar senha"
+  }
+}
