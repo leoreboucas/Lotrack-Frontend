@@ -1,0 +1,25 @@
+{
+  "products": {
+    "eyebrow": "ESTOQUE",
+    "title": "Produtos",
+    "description": "Acompanhe os itens cadastrados e seus níveis mínimos.",
+    "name": "Nome",
+    "sku": "SKU",
+    "category": "Categoria",
+    "unitOfMeasure": "Unidade de medida",
+    "minimumStock": "Estoque mínimo",
+    "currentQuantity": "Quantidade atual",
+    "lowStock": "Abaixo do mínimo",
+    "stockInformation": "Informações de estoque",
+    "actions": "AÇÕES",
+    "barcode": "Código de barras",
+    "empty": "Nenhum produto cadastrado.",
+    "loading": "Carregando produtos...",
+    "previous": "Anterior",
+    "show": "Ver detalhes",
+    "next": "Próxima",
+    "page": "Página {{current}} de {{total}}",
+    "itemsPerPage": "Itens por página",
+    "searchPlaceholder": "Buscar por nome, SKU ou código"
+  }
+}
