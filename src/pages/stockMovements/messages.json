@@ -1,0 +1,31 @@
+{
+  "stockMovements": {
+    "title": "Movimentações",
+    "description": "Histórico das operações de entrada, saída, descarte e ajuste.",
+    "empty": "Nenhuma movimentação registrada.",
+    "loading": "Carregando movimentações...",
+    "searchPlaceholder": "Buscar por motivo",
+    "productName": "Produto",
+    "productDetails": "Detalhes do produto",
+    "productSku": "SKU",
+    "productBarcode": "Código de barras",
+    "type": "Tipo de movimentação",
+    "direction": "Sentido",
+    "totalQuantity": "Quantidade total",
+    "reason": "Motivo",
+    "userName": "Responsável",
+    "actions": "Ações",
+    "newMovement": "Nova movimentação",
+    "generateReceipt": "Gerar comprovante",
+    "show": "Ver detalhes",
+    "entry": "Entrada",
+    "exit": "Saída",
+    "disposal": "Descarte",
+    "adjustment": "Ajuste",
+    "createdAt": "Data da movimentação",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "page": "Página {{current}} de {{total}}",
+    "itemsPerPage": "Itens por página"
+  }
+}
