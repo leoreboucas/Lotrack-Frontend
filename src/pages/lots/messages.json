@@ -1,0 +1,28 @@
+{
+  "lots": {
+    "eyebrow": "ESTOQUE",
+    "title": "Lotes",
+    "description": "Acompanhe os lotes ativos, saldos e vencimentos.",
+    "new": "Novo lote",
+    "product": "Produto",
+    "lot": "Lote",
+    "balance": "Saldo",
+    "show": "Ver detalhes",
+    "expiration": "Validade",
+    "initialBalance": "Saldo inicial",
+    "initialQuantity": "Quantidade inicial",
+    "currentQuantity": "Quantidade atual",
+    "lotNumber": "Número do lote",
+    "supplierName": "Fornecedor",
+    "productName": "Produto",
+    "unitCost": "Custo unitário",
+    "receivedAt": "Recebido em",
+    "empty": "Nenhum lote cadastrado.",
+    "loading": "Carregando lotes...",
+    "itemsPerPage": "Itens por página",
+    "searchPlaceholder": "Buscar por lote",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "page": "Página {{current}} de {{total}}"
+  }
+}
