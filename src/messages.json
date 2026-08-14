@@ -1,0 +1,23 @@
+{
+  "dashboard": {
+    "welcome": "Bem-vindo ao painel administrativo. Selecione um recurso no menu lateral para começar."
+  },
+  "auth": {
+    "email": "E-mail",
+    "sessionExpired": "Sessão expirada. Entre novamente.",
+    "invalidCredentials": "Não foi possível entrar. Verifique suas credenciais.",
+    "unauthorizedRole": "Seu perfil não tem acesso a esta aplicação.",
+    "notAuthenticated": "Não autenticado."
+  },
+  "errors": {
+    "network": "Erro de conexão. Verifique sua internet e tente novamente.",
+    "http": "Erro {{status}}"
+  },
+  "navigation": {
+    "categories": "Categorias",
+    "products": "Produtos",
+    "suppliers": "Fornecedores",
+    "lots": "Lotes",
+    "stockMovements": "Movimentações"
+  }
+}
