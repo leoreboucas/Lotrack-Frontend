@@ -1,0 +1,20 @@
+{
+  "suppliers": {
+    "eyebrow": "PARCEIROS",
+    "title": "Fornecedores",
+    "description": "Consulte os parceiros vinculados à sua operação.",
+    "name": "Nome",
+    "contact": "Contato",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "empty": "Nenhum fornecedor cadastrado.",
+    "actions": "AÇÕES",
+    "show": "Ver detalhes",
+    "loading": "Carregando fornecedores...",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "page": "Página {{current}} de {{total}}",
+    "itemsPerPage": "Itens por página",
+    "searchPlaceholder": "Buscar por nome ou contato"
+  }
+}
