@@ -1,0 +1,31 @@
+{
+  "categories": {
+    "eyebrow": "CATÁLOGO",
+    "title": "Categorias",
+    "description": "Organize os grupos que classificam seu catálogo.",
+    "new": "Nova categoria",
+    "edit": "Editar categoria",
+    "name": "Nome",
+    "namePlaceholder": "Nome da categoria",
+    "fieldDescription": "Descrição",
+    "descriptionPlaceholder": "Descrição da categoria",
+    "actions": "AÇÕES",
+    "save": "Salvar",
+    "saving": "Salvando...",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "page": "Página {{current}} de {{total}}",
+    "itemsPerPage": "Itens por página",
+    "delete": "Excluir",
+    "deleteConfirmation": "Tem certeza que deseja excluir esta categoria?",
+    "deleteSuccess": "Categoria excluída com sucesso.",
+    "show": "Ver detalhes",
+    "status": "Status",
+    "active": "Ativo",
+    "inactive": "Inativo",
+    "empty": "Nenhuma categoria cadastrada.",
+    "loading": "Carregando categorias...",
+    "nameRequired": "Informe o nome da categoria",
+    "searchPlaceholder": "Buscar por nome"
+  }
+}
