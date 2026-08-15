@@ -1,6 +1,5 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { HashRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App.tsx";
 import { Refine } from "@refinedev/core";
@@ -10,10 +9,11 @@ import { i18nProvider, refineI18nProvider } from "./providers/i18nProvider.ts";
 import routerProvider from "@refinedev/react-router";
 import { ColorModeProvider } from "./context/colorMode.tsx";
 import { accessControlProvider } from "./providers/accessControlProvider.ts";
+import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter>
       <Refine
         dataProvider={dataProvider}
         authProvider={authProvider}
@@ -62,6 +62,6 @@ createRoot(document.getElementById("root")!).render(
         <App />
         </ColorModeProvider>
       </Refine>
-    </HashRouter>
+    </BrowserRouter>
   </StrictMode>,
 );

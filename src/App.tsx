@@ -6,7 +6,7 @@ import { AppLayout } from "./layout/appLayout";
 import { CategoryCreate, CategoryEdit, CategoryList } from "./pages/categories";
 import { ProductCreate, ProductEdit, ProductList } from "./pages/products";
 import { SupplierCreate, SupplierEdit, SupplierList } from "./pages/suppliers";
-import { LotCreate, LotList } from "./pages/lots";
+import { LotList } from "./pages/lots";
 import { StockMovementList } from "./pages/stockMovements";
 import { EntryForm } from "./pages/stockMovements/entry/entryForm";
 import { ExitForm } from "./pages/stockMovements/exit/exitForm";
@@ -49,7 +49,6 @@ const App = () => {
         <Route path="/suppliers/edit/:id" element={<SupplierEdit />} />
         <Route path="/suppliers/show/:id" element={<SupplierShow />} />
         <Route path="/lots" element={<LotList />} />
-        <Route path="/lots/create" element={<LotCreate />} />
         <Route path="/lots/show/:id" element={<LotShow />} />
         <Route
           path="/stock-movements/show/:id"
