@@ -1,4 +1,4 @@
-import { ArrowRightLeft, Boxes, Package, Tags, Truck } from "lucide-react";
+import { ArrowRightLeft, Boxes, Package, ScrollText, Tags, Truck } from "lucide-react";
 
 export const menuConfig = [
     {
@@ -16,4 +16,10 @@ export const menuConfig = [
       { label: "Fornecedores", path: "/suppliers", icon: Truck, resource: "suppliers" },
     ],
   },
+  {
+  section: "Administração",
+  items: [
+    { label: "Auditoria", path: "/audit-logs", icon: ScrollText, resource: "audit-logs" },
+  ],
+},
 ];

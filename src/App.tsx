@@ -18,6 +18,7 @@ import { CategoryShow } from "./pages/categories/show";
 import { SupplierShow } from "./pages/suppliers/show";
 import { LotShow } from "./pages/lots/show";
 import { StockMovementShow } from "./pages/stockMovements/show";
+import { AuditLogList } from "./pages/auditLogs/list";
 
 const App = () => {
   return (
@@ -61,6 +62,7 @@ const App = () => {
           element={<AdjustmentForm />}
         />
         <Route path="/movements/disposals/create" element={<DisposalForm />} />
+        <Route path="/audit-logs" element={<AuditLogList />} />
       </Route>
 
       <Route path="*" element={<Navigate to="/login" replace />} />

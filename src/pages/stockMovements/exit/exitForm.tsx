@@ -12,6 +12,7 @@ import type { IProduct } from "@/types/product";
 
 import { exitSchema, type ExitFormData } from "./schema";
 import { ProductCombobox } from "@/components/productCombobox";
+import { useState } from "react";
 
 export const ExitForm = () => {
   const navigate = useNavigate();
@@ -43,10 +44,19 @@ export const ExitForm = () => {
     ? products.find((p) => p.id === prefill.productId)
     : undefined;
   
+  const [submitError, setSubmitError] = useState<string | null>(null);
+
   const onSubmit = (data: ExitFormData) => {
+    setSubmitError(null);
+
     create(
       { resource: "movements/exits", values: data },
-      { onSuccess: () => navigate("/") },
+      {
+        onSuccess: () => navigate("/"),
+        onError: (error) => {
+          setSubmitError(error.message);
+        },
+      },
     );
   };
 
@@ -72,6 +82,11 @@ export const ExitForm = () => {
             className="grid gap-5 sm:grid-cols-2"
             onSubmit={handleSubmit(onSubmit)}
           >
+            {submitError && (
+              <div className="sm:col-span-2 rounded-md border border-destructive/30 bg-destructive/5 px-3 py-2 text-sm text-destructive">
+                {submitError}
+              </div>
+            )}
             <div className="space-y-2 sm:col-span-2">
               <Label htmlFor="productId">Produto</Label>
               {prefilledProduct ? (

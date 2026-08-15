@@ -47,6 +47,12 @@ export const accessControlProvider: AccessControlProvider = {
         : { can: true };
     }
 
+    if (resource === "audit-logs") {
+        return role === "ADMIN"
+        ? { can: true }
+        : { can: false, reason: "Apenas administradores" };
+    }
+
     const isReadOnly = action === "list" || action === "show";
     return { can: isReadOnly };
   },
