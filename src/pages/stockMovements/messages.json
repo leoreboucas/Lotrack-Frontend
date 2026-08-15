@@ -16,6 +16,7 @@
     "userName": "Responsável",
     "actions": "Ações",
     "newMovement": "Nova movimentação",
+    "noMovements": "Não há movimentações registradas.",
     "generateReceipt": "Gerar comprovante",
     "show": "Ver detalhes",
     "entry": "Entrada",
